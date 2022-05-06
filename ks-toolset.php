@@ -60,6 +60,7 @@ defined( 'ABSPATH' ) OR exit;
              $this->requireAdmin();
              $this->createAdmin();
              new KSTOOLPluginUpdater( __FILE__, 'MrXenon', "ks-toolset" );
+             wp_enqueue_style('adminGlobalCss', plugin_dir_url(__FILE__).'css/adminGlobal.css');
          } else {
          }
 
