@@ -1,0 +1,33 @@
+<?php
+
+define ( 'KS_TOOLSET_VERSION', '1.0.0' );
+
+define ( 'KS_TOOLSET_REQUIRED_WP_VERSION', '5.9.3' );
+
+define ( 'KS_TOOLSET_PLUGIN_BASENAME', plugin_basename( KS_TOOLSET_PLUGIN ) );
+
+define ( 'KS_TOOLSET_PLUGIN_NAME', trim( dirname ( KS_TOOLSET_PLUGIN_BASENAME ), '/' ) );
+
+define ( 'KS_TOOLSET_PLUGIN_DIR', untrailingslashit( dirname ( KS_TOOLSET_PLUGIN ) ) );
+
+define ( 'KS_TOOLSET_PLUGIN_INCLUDES_DIR', KS_TOOLSET_PLUGIN_DIR . '/includes' );
+
+define ( 'KS_TOOLSET_PLUGIN_JS_DIR', KS_TOOLSET_PLUGIN_DIR . '/js' );
+
+define ( 'KS_TOOLSET_PLUGIN_CSS_DIR', KS_TOOLSET_PLUGIN_DIR . '/css' );
+
+define ( 'KS_TOOLSET_PLUGIN_DIST_DIR', KS_TOOLSET_PLUGIN_DIR . '/dist' );
+
+define ( 'KS_TOOLSET_PLUGIN_SRC_DIR', KS_TOOLSET_PLUGIN_DIR . '/src' );
+
+define ( 'KS_TOOLSET_PLUGIN_INCLUDES_VIEWS_DIR', KS_TOOLSET_PLUGIN_INCLUDES_DIR	. '/views'	);
+
+define ( 'KS_TOOLSET_PLUGIN_MODEL_DIR', KS_TOOLSET_PLUGIN_INCLUDES_DIR . '/model' );
+
+define ( 'KS_TOOLSET_PLUGIN_CALENDAR_DIR', KS_TOOLSET_PLUGIN_INCLUDES_DIR . '/calendar' );
+
+define ( 'KS_TOOLSET_PLUGIN_ADMIN_DIR', KS_TOOLSET_PLUGIN_DIR . '/admin' );
+
+define ( 'KS_TOOLSET_PLUGIN_ADMIN_VIEWS_DIR', KS_TOOLSET_PLUGIN_ADMIN_DIR . '/views' );
+
+?>
